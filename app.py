@@ -33,9 +33,6 @@ def calculate():
     mat_int=int(mat)
     che_int=int(che)
     phy_int=int(phy)
-    # phy_hf=phy/2
-    # che_hf=che/2
-    # tot=mat+phy_hf+che_hf
     tot = mat_int + che_int / 2 + phy_int / 2
     tot_int=int(tot)
     per=tot/200
